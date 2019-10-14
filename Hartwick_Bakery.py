@@ -83,7 +83,7 @@ def minimum_candies(max_candies):
     min_candies = max_candies
     for candy in candies:
         if candy < min_candies:
-           min_candies = candy
+            min_candies = candy
     print(f"The minimum candy sample size was {min_candies}.")
     return min_candies
 
@@ -97,7 +97,7 @@ def popular(aver_cookies, aver_candies):
 
 
 cookie_data()
-print("") # blank line for spaceing
+print("")  # blank line for spacing
 candy_data()
 # the following commented out print statement
 # enables viewing of inputted list values, useful in debugging
@@ -105,11 +105,11 @@ candy_data()
 # print(candies)
 aver_cookies = average_cookies()
 aver_candies = average_candies()
-
+print("")  # blank line for spacing
 max_cookies = maximum_cookies()
 max_candies = maximum_candies()
-
+print("")  # blank line for spacing
 minimum_cookies(max_cookies)
 minimum_candies(max_candies)
-
+print("")  # blank line for spacing
 popular(aver_cookies, aver_candies)
