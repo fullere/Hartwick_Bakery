@@ -32,7 +32,7 @@ def average_cookies():
         months = months + 1
         total = total + cookie
     cookie_average = total / months
-    print(f"The average cookie sales for the last {months} Months is {cookie_average} cookies.")
+    print(f"The average cookie sales for the last {months} Months is {round(cookie_average,2)} cookies.")
     return cookie_average
 
 
@@ -44,7 +44,7 @@ def average_candies():
         months = months + 1
         total = total + candy
     candy_average = total / months
-    print(f"The average candy sales for the last {months} Months is {candy_average} cookies.")
+    print(f"The average candy sales for the last {months} Months is {round(candy_average, 2)} cookies.")
     return candy_average
 
 
