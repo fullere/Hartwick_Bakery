@@ -113,3 +113,4 @@ minimum_cookies(max_cookies)
 minimum_candies(max_candies)
 print("")  # blank line for spacing
 popular(aver_cookies, aver_candies)
+
